@@ -1,0 +1,8 @@
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\bin\Debug\TestConsole.exe.config
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\obj\Debug\TestConsole.exe
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\obj\Debug\TestConsole.pdb
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\bin\Debug\Aurora.dll
+C:\Users\Develpement\Desktop\Aurora\TestConsole\TestConsole\bin\Debug\Aurora.pdb

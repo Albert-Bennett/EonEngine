@@ -1,0 +1,12 @@
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.Particles2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.Particles2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.Physics2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.Rendering2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.Physics2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\bin\Windows Phone\Debug\Eon.Rendering2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\obj\Windows Phone\Debug\Eon.Particles2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\obj\Windows Phone\Debug\Eon.Particles2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Particles2D\Eon.Particles2D\obj\Windows Phone\Debug\Eon.Particles2D.csprojResolveAssemblyReference.cache

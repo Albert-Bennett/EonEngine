@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Develpement/Desktop/Eon Engine/Console/Testing/MK5/LPP2DTest0/LPP2DTest0/Content/Eon/Shaders/PostProcessing/DOF.fx</SourceFile>
+  <SourceTime>2015-09-05T09:44:27.9515705+01:00</SourceTime>
+  <DestFile>C:/Users/Develpement/Desktop/Eon Engine/Console/Testing/MK5/LPP2DTest0/LPP2DTest0/Content/bin/WindowsGL/Eon/Shaders/PostProcessing/DOF.xnb</DestFile>
+  <DestTime>2015-09-05T09:52:38.7599382+01:00</DestTime>
+  <Importer>EffectImporter</Importer>
+  <ImporterTime>2015-03-16T03:01:46+00:00</ImporterTime>
+  <Processor>EffectProcessor</Processor>
+  <ProcessorTime>2015-03-16T03:01:46+00:00</ProcessorTime>
+  <Parameters>
+    <Key>DebugMode</Key>
+    <Value>Auto</Value>
+  </Parameters>
+  <Dependencies>
+    <string>C:\Users\Develpement\Desktop\Eon Engine\Console\Testing\MK5\LPP2DTest0\LPP2DTest0\Content\Eon\Shaders\PostProcessing\Common.fxh</string>
+  </Dependencies>
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

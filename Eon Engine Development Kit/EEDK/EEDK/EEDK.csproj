@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{382D5332-7A30-4BA8-A113-D6E808AAAE0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EEDK</RootNamespace>
+    <AssemblyName>EEDK</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\WindowsGL\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\WindowsGL\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MainGame.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Eon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon\Eon\bin\Debug\Eon.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.AI">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.AI\Eon.AI\bin\Debug\Eon.AI.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.AnimaticSystem">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.AnimaticSystem\Eon.AnimaticSystem\bin\Debug\Eon.AnimaticSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Animation2D">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Animation2D\Eon.Animation2D\bin\Debug\Eon.Animation2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Engine">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Engine\Eon.Engine\bin\Debug\Eon.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Game">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Game\Eon.Game\bin\Debug\Eon.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Particles">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Particles\Eon.Particles\bin\Debug\Eon.Particles.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Physics2D">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Physics2D\Eon.Physics2D\bin\Debug\Eon.Physics2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Physics3D">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Physics3D\Eon.Physics3D\bin\Debug\Eon.Physics3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.PostProcessing">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.PostProcessing\Eon.PostProcessing\bin\Debug\Eon.PostProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering2D">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Rendering2D\Eon.Rendering2D\bin\Debug\Eon.Rendering2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering3D">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Rendering3D\Eon.Rendering3D\bin\Debug\Eon.Rendering3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Testing">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.Testing\Eon.Testing\bin\Debug\Eon.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.UIApi">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Lidgren.Network">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <Content Include="SDL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EEDK.Crosswalk\EEDK.Crosswalk\EEDK.Crosswalk.csproj">
+      <Project>{fce97d08-dd8c-4f1c-878d-fe208ff8d353}</Project>
+      <Name>EEDK.Crosswalk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EEDK.Gui\EEDK.Gui\EEDK.Gui.csproj">
+      <Project>{adc7c9b4-2f10-4ee8-a601-d0d7a5e69fce}</Project>
+      <Name>EEDK.Gui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Content\Cursors\CenterCursor.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Cursors\ClickCursor.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon.Engine">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Fonts\Arial12.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Fonts\Arial23.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Models\PointLightModel.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Models\SpotLightModel.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Models\Texture_0.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\2D\2DPointLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\2D\Compose.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\2D\DominateLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\3D\Compose.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\3D\DirectionalLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\3D\MergePeels.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\3D\PointLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\3D\Shadowing\OcclusionMap.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\3D\Shadowing\ShadowMap.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\3D\SpotLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Lighting\ClearGBuffer.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\AnimatedBillboard.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\AnimatedTexture.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\BasicEffect.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\BasicLPPMaterial.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\Billboard.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\DTLPPMaterial.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\LABillboard.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Materials\TerrainLPP.xnb" />
+    <None Include="Content\Eon\Shaders\Materials\WaterMaterial.xnb" />
+    <None Include="Content\Eon\Shaders\PostProcessing\ComposeBloom.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\Distortion.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\DOF.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\ExtractSaturation.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\Fog.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\GausianBlur.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\MotionBlur.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\Negitive.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\PostProcessing\RainGlass.xnb" />
+    <None Include="Content\Eon\Shaders\PostProcessing\SelectiveDesaturate.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\Terrain.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Shaders\TerrainLPP.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Textures\Blank.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Textures\DefaultDistortionMap.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Textures\DefaultNormalMap.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Textures\DefaultSpecularMap.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Textures\DefaultTexture.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Eon\Textures\Pixel.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\GUI\Logo.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\GUI\LstBack.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\GUI\MenuBack.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\GUI\Verdana12pt.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Icons\Lights\Directional.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Icons\Lights\MeshLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Icons\Lights\PointLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Icons\Lights\SpotLight.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\ManipulationIcons\MoveIcon.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\ManipulationIcons\MoveIcon_Shader.Shader">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\ManipulationIcons\RotateIcon.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\ManipulationIcons\RotateIcon_Shader.Shader">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\ManipulationIcons\ScaleIcon.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\ManipulationIcons\ScaleIcon_Shader.Shader">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\ManipulationIcons\UV_0.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\MenuSystem.Menu">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

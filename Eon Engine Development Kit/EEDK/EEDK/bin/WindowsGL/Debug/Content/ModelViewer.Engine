@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<FrameworkCreation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TargetFramerate>166</TargetFramerate>
+  <FullScreen>false</FullScreen>
+  <DefaultScreenResolution>0</DefaultScreenResolution>
+  <DefaultScreenSize>0</DefaultScreenSize>
+  <DefaultTextureQuality>2</DefaultTextureQuality>
+  <DefaultLanguage>English</DefaultLanguage>
+  <DictionaryFilepaths>
+    <string>NULL</string>
+  </DictionaryFilepaths>
+  <EngineComponents>
+    <ParameterCollection>
+      <ObjectType>Eon.Rendering3D.Framework.Framework</ObjectType>
+    </ParameterCollection>
+    <ParameterCollection>
+      <ObjectType>Eon.Rendering2D.Framework.Framework</ObjectType>
+    </ParameterCollection>
+    <ParameterCollection>
+      <ObjectType>Eon.UIApi.MenuManager</ObjectType>
+      <Parameters>
+        <anyType xsi:type="xsd:string">MdlViewerSystem.Menu</anyType>
+      </Parameters>
+    </ParameterCollection>
+  </EngineComponents>
+  <AssemblyRefferences>
+    <string>Eon</string>
+    <string>Eon.Rendering2D</string>
+    <string>Eon.Rendering3D</string>
+    <string>Eon.UIApi</string>
+  </AssemblyRefferences>
+  <AudioMangerFilepath>NULL</AudioMangerFilepath>
+</FrameworkCreation>

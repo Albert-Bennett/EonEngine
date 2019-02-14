@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>WindowsGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/DefaultBG.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/DefaultScrollBG.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/LstBack.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/MenuBack.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/ScrollBG.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/Verdana12pt.bmp</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Fonts/Arial12.bmp</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Fonts/Arial23.bmp</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Textures/Blank.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Textures/DefaultDistortionMap.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Textures/DefaultNormalMap.tga</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Textures/DefaultSpecularMap.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Textures/DefaultTexture.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Textures/NoiseMap.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/Eon/Textures/Pixel.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/Cursors/Cursor.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/PictureIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/NormalMapIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/Checked.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/Unchecked.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/AllLayersIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/SingleLayerIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/GridOffIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/GridOnIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/1.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/1Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/2.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/2Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/3.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/3Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/4.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/4Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/5.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/5Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/6.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/6Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/7.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/7Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/8.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/8Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/0.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/0Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/9.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/TileMap/9Select.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/BinIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/MinusIcon.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.TilemapEditor/EEDK.TilemapEditor/Content/GUI/PlusIcon.png</File>
+  </SourceFiles>
+</SourceFileCollection>

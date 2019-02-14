@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Eon.Engine</Source>
+      <Name>Eon</Name>
+      <Importer>EngineImporter</Importer>
+      <Processor>EngineProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\bin\Windows Phone\Debug\Content\Eon.xnb</Output>
+      <Time>2014-04-14T11:23:18.4063504+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Eon\Fonts\Arial12.bmp</Source>
+      <Name>Eon\Fonts\Arial12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\bin\Windows Phone\Debug\Content\Eon\Fonts\Arial12.xnb</Output>
+      <Time>2014-04-14T11:24:04.8824602+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Eon\Fonts\Arial23.bmp</Source>
+      <Name>Eon\Fonts\Arial23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\bin\Windows Phone\Debug\Content\Eon\Fonts\Arial23.xnb</Output>
+      <Time>2014-04-14T11:24:04.8884593+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Eon\Textures\Blank.png</Source>
+      <Name>Eon\Textures\Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\bin\Windows Phone\Debug\Content\Eon\Textures\Blank.xnb</Output>
+      <Time>2014-04-14T11:24:32.3785633+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Eon\Textures\DefaultTexture.jpg</Source>
+      <Name>Eon\Textures\DefaultTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\bin\Windows Phone\Debug\Content\Eon\Textures\DefaultTexture.xnb</Output>
+      <Time>2014-04-14T11:24:32.3855628+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BlackTexture.jpg</Source>
+      <Name>BlackTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\bin\Windows Phone\Debug\Content\BlackTexture.xnb</Output>
+      <Time>2014-04-14T11:35:54.7720935+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{55FD2FAB-5166-417C-ACBF-15C2DD15D103}</ContentProjectGUID>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Develpement\Desktop\Eon Engine\Mobile\Tests\PhysicsTestCollision1\PhysicsTestCollision1\PhysicsTestCollision1\bin\Windows Phone\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T15:52:54+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T15:52:54+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T15:52:54+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T15:52:54+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T15:52:54+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T15:52:54+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1.4\Eon.ContentPipeline\Eon.ContentPipeline\bin\x86\Debug\Eon.ContentPipeline.dll</Key>
+        <Value>2014-04-04T16:13:08.4494645+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-01-01T17:00:47.9552721+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

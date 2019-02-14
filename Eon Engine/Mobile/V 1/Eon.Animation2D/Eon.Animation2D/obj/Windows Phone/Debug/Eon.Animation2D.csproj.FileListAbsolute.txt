@@ -1,0 +1,12 @@
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\obj\Windows Phone\Debug\Eon.Animation2D.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.Animation2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.Animation2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.Physics2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.Rendering2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.Physics2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\bin\Windows Phone\Debug\Eon.Rendering2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\obj\Windows Phone\Debug\Eon.Animation2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Animation2D\Eon.Animation2D\obj\Windows Phone\Debug\Eon.Animation2D.pdb

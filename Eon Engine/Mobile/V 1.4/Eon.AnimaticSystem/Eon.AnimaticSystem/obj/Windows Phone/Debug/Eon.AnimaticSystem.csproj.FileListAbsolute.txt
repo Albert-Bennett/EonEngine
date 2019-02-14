@@ -1,0 +1,8 @@
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\obj\Windows Phone\Debug\Eon.AnimaticSystem.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\bin\Windows Phone\Debug\Eon.AnimaticSystem.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\bin\Windows Phone\Debug\Eon.AnimaticSystem.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\bin\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\bin\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\obj\Windows Phone\Debug\Eon.AnimaticSystem.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.AnimaticSystem\Eon.AnimaticSystem\obj\Windows Phone\Debug\Eon.AnimaticSystem.pdb

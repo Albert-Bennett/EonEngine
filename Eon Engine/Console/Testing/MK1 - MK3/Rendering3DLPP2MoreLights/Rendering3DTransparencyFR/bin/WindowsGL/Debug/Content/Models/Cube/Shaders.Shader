@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ModelShaders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Shaders>
+    <Keys>
+      <string>Cube</string>
+    </Keys>
+    <Values>
+      <Shader>
+        <Parameters>
+          <ShaderParameter>
+            <ParameterName>Texture</ParameterName>
+            <ValueType>Texture2D</ValueType>
+            <ValueString>Models/Cube/CubeUV</ValueString>
+          </ShaderParameter>
+          <ShaderParameter>
+            <ParameterName>NormalMap</ParameterName>
+            <ValueType>Texture2D</ValueType>
+            <ValueString>Models/Cube/CubeNormalMap</ValueString>
+          </ShaderParameter>
+          <ShaderParameter>
+            <ParameterName>SpecularMap</ParameterName>
+            <ValueType>Texture2D</ValueType>
+            <ValueString>Models/Cube/SpecularMap</ValueString>
+          </ShaderParameter>
+        </Parameters>
+        <ShaderFilepath>Eon/Shaders/Materials/BasicLPPMaterial</ShaderFilepath>
+        <DefaultTechnique>Render</DefaultTechnique>
+      </Shader>
+    </Values>
+  </Shaders>
+</ModelShaders>

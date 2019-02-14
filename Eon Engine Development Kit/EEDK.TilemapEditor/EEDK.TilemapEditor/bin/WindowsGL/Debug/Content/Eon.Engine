@@ -1,0 +1,184 @@
+﻿<?xml version="1.0"?>
+<FrameworkCreation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TargetFramerate>166</TargetFramerate>
+  <FullScreen>true</FullScreen>
+  <DefaultScreenResolution>0</DefaultScreenResolution>
+  <DefaultScreenSize>0</DefaultScreenSize>
+  <DefaultTextureQuality>2</DefaultTextureQuality>
+  <DefaultLanguage/>
+  <DictionaryFilepaths>
+    <string>Dictionaries/English</string>
+  </DictionaryFilepaths>
+  <EngineComponents>
+    <ParameterCollection>
+      <ObjectType>Eon.Rendering2D.Framework.Framework</ObjectType>
+      <Parameters/>
+    </ParameterCollection>
+    <ParameterCollection>
+      <ObjectType>Eon.UIApi.MenuManager</ObjectType>
+      <Parameters/>
+    </ParameterCollection>
+  </EngineComponents>
+  <AssemblyRefferences>
+    <string>Eon</string>
+    <string>Eon.Rendering2D</string>
+    <string>Eon.UIApi</string>
+    <string>Eon.Game</string>
+    <string>Eon.Game2D</string>
+  </AssemblyRefferences>
+  <AudioMangerFilepath/>
+  <InputCommands>
+    <Keys>
+      <string>ExitStroked</string>
+      <string>EnterStroked</string>
+      <string>StartStroked</string>
+      <string>EnterTapped</string>
+      <string>CtrlDown</string>
+      <string>CtrlUp</string>
+      <string>Held</string>
+    </Keys>
+    <Values>
+      <Command>
+        <Messages>
+          <Message>
+            <TargetID />
+            <MethodName>IsKeyStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="Keys">Esc</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="GamePadButtons">Back</anyType>
+            </Parameters>
+          </Message>
+        </Messages>
+      </Command>
+      <Command>
+        <Messages>
+          <Message>
+            <TargetID />
+            <MethodName>IsKeyStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="Keys">Enter</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="GamePadButtons">A</anyType>
+            </Parameters>
+          </Message>
+        </Messages>
+      </Command>
+      <Command>
+        <Messages>
+          <Message>
+            <TargetID />
+            <MethodName>IsKeyStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="Keys">Enter</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="GamePadButtons">Start</anyType>
+            </Parameters>
+          </Message>
+        </Messages>
+      </Command>
+      <Command>
+        <Messages>
+          <Message>
+            <TargetID />
+            <MethodName>IsMouseButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="MouseButtons">Left</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsGestured</MethodName>
+            <Parameters>
+              <anyType xsi:type="TouchType">Tap</anyType>
+            </Parameters>
+          </Message>
+        </Messages>
+      </Command>
+      <Command>
+        <Messages>
+          <Message>
+            <TargetID />
+            <MethodName>IsKeyStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="Keys">Down</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="GamePadButtons">DownPad</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="GamePadButtons">LeftThumbStickDown</anyType>
+            </Parameters>
+          </Message>
+        </Messages>
+      </Command>
+      <Command>
+        <Messages>
+          <Message>
+            <TargetID />
+            <MethodName>IsKeyStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="Keys">Up</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="GamePadButtons">UpPad</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsButtonStroked</MethodName>
+            <Parameters>
+              <anyType xsi:type="GamePadButtons">LeftThumbStickUp</anyType>
+            </Parameters>
+          </Message>
+        </Messages>
+      </Command>
+      <Command>
+        <Messages>
+          <Message>
+            <TargetID />
+            <MethodName>IsMouseButtonPressed</MethodName>
+            <Parameters>
+              <anyType xsi:type="MouseButtons">Left</anyType>
+            </Parameters>
+          </Message>
+          <Message>
+            <TargetID />
+            <MethodName>IsGestured</MethodName>
+            <Parameters>
+              <anyType xsi:type="TouchType">Hold</anyType>
+            </Parameters>
+          </Message>
+        </Messages>
+      </Command>
+    </Values>
+  </InputCommands>
+</FrameworkCreation>
+

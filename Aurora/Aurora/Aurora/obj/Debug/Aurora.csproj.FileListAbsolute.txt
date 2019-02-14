@@ -1,0 +1,5 @@
+C:\Users\Develpement\Desktop\Aurora\Aurora\Aurora\obj\Debug\Aurora.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Aurora\Aurora\Aurora\bin\Debug\Aurora.dll
+C:\Users\Develpement\Desktop\Aurora\Aurora\Aurora\bin\Debug\Aurora.pdb
+C:\Users\Develpement\Desktop\Aurora\Aurora\Aurora\obj\Debug\Aurora.dll
+C:\Users\Develpement\Desktop\Aurora\Aurora\Aurora\obj\Debug\Aurora.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eon.Rendering2D", "Eon.Rendering2D\Eon.Rendering2D.csproj", "{41321F74-3AEF-4264-8988-3DC7A1847974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41321F74-3AEF-4264-8988-3DC7A1847974}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{41321F74-3AEF-4264-8988-3DC7A1847974}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{41321F74-3AEF-4264-8988-3DC7A1847974}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{41321F74-3AEF-4264-8988-3DC7A1847974}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

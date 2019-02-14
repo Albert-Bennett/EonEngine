@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4731BB91-317C-4CD2-A9F1-CE9547BDEAF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EonEngineTool</RootNamespace>
+    <AssemblyName>EonEngineTool</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>EonEngineTool.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon\Eon\bin\Debug\Eon.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.AnimaticSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.AnimaticSystem\Eon.AnimaticSystem\bin\Debug\Eon.AnimaticSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Animation2D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Animation2D\Eon.Animation2D\bin\Debug\Eon.Animation2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Animation3D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Animation3D\Eon.Animation3D\bin\Debug\Eon.Animation3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Engine\Eon.Engine\bin\Debug\Eon.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Game, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Game\Eon.Game\bin\Debug\Eon.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Game2D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Game2D\Eon.Game2D\bin\Debug\Eon.Game2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Particles">
+      <HintPath>..\..\..\Console\Mk 2\Eon.Particles\Eon.Particles\bin\Debug\Eon.Particles.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Physics2D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Physics2D\Eon.Physics2D\bin\Debug\Eon.Physics2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering2D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Rendering2D\Eon.Rendering2D\bin\Debug\Eon.Rendering2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering3D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Rendering3D\Eon.Rendering3D\bin\Debug\Eon.Rendering3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Testing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.Testing\Eon.Testing\bin\Debug\Eon.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.UIApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\ContainerDocks\AddableDock.cs" />
+    <Compile Include="Lib\ContainerDocks\PropertyDock.cs" />
+    <Compile Include="Lib\ContainerDocks\SelectionDock.cs" />
+    <Compile Include="Lib\Controls\ControlCreator.cs" />
+    <Compile Include="Lib\Controls\GroupedTextBox.cs" />
+    <Compile Include="Lib\Controls\ImageBox.cs" />
+    <Compile Include="Lib\Controls\IModControl.cs" />
+    <Compile Include="Lib\Controls\IndexedImageBox.cs" />
+    <Compile Include="Lib\Controls\ModCheckBox.cs" />
+    <Compile Include="Lib\Controls\ModTextBox.cs" />
+    <Compile Include="Lib\Helper.cs" />
+    <Compile Include="Lib\ProcessHelper.cs" />
+    <Compile Include="Lib\PropertyHelper.cs" />
+    <Compile Include="Lib\SentData.cs" />
+    <Compile Include="ObjectCreation\JJAX\JJAXForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectCreation\JJAX\JJAXForm.Designer.cs">
+      <DependentUpon>JJAXForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectCreation\Shader\ShaderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectCreation\Shader\ShaderForm.Designer.cs">
+      <DependentUpon>ShaderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\UserPrefrences.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="ObjectCreation\Particles\EmitterInfo.cs" />
+    <Compile Include="ObjectCreation\Particles\ParticleCreationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectCreation\Particles\ParticleCreationForm.Designer.cs">
+      <DependentUpon>ParticleCreationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectCreation\Shader\ShaderInfo.cs" />
+    <Compile Include="ObjectCreation\Shader\ShaderParameterDock.cs" />
+    <Compile Include="ObjectCreation\Tilemap\TileLayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectCreation\Tilemap\TileLayerForm.Designer.cs">
+      <DependentUpon>TileLayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectCreation\Tilemap\TileMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectCreation\Tilemap\TileMapForm.Designer.cs">
+      <DependentUpon>TileMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectProcessing\Animation3DProcessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectProcessing\Animation3DProcessor.Designer.cs">
+      <DependentUpon>Animation3DProcessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\TextEdittor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\TextEdittor.Designer.cs">
+      <DependentUpon>TextEdittor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\UserPrefForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\UserPrefForm.Designer.cs">
+      <DependentUpon>UserPrefForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectCreation\JJAX\JJAXForm.resx">
+      <DependentUpon>JJAXForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectCreation\Particles\ParticleCreationForm.resx">
+      <DependentUpon>ParticleCreationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectCreation\Shader\ShaderForm.resx">
+      <DependentUpon>ShaderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectCreation\Tilemap\TileLayerForm.resx">
+      <DependentUpon>TileLayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectCreation\Tilemap\TileMapForm.resx">
+      <DependentUpon>TileMapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectProcessing\Animation3DProcessor.resx">
+      <DependentUpon>Animation3DProcessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Utilities\TextEdittor.resx">
+      <DependentUpon>TextEdittor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\UserPrefForm.resx">
+      <DependentUpon>UserPrefForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bgMain.jpg" />
+    <Content Include="Content\bgTile.jpg" />
+    <Content Include="Content\bgTransparent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Icons\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

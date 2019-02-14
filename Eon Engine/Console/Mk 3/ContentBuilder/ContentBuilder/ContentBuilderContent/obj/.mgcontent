@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Eon/Fonts/Arial12.bmp</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Eon/Fonts/Arial23.bmp</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Eon/Textures/DefaultNormalMap.tga</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Eon/Textures/DefaultSpecularMap.png</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Eon/Textures/Pixel.jpg</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Eon/Textures/Blank.png</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Environments/Misc/Lights/PointLight0/SpecMap.png</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Environments/Misc/Lights/PointLight0/UV.png</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Environments/Entrance/LandingPad_Norm.png</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Environments/Entrance/LandingPad_Spec.png</File>
+    <File>C:/Users/Develpement/Desktop/ContentBuilder/ContentBuilder/ContentBuilderContent/Environments/Entrance/LandingPad_UV.png</File>
+  </SourceFiles>
+</SourceFileCollection>

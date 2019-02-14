@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97560E85-11FA-4532-91E3-9913D901B39D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aurora</RootNamespace>
+    <AssemblyName>Aurora</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LinqExtentions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scaning\Character.cs" />
+    <Compile Include="Scaning\Scanner.cs" />
+    <Compile Include="Script.cs" />
+    <Compile Include="StringExtentions.cs" />
+    <Compile Include="Tokens\Keywords\ElseToken.cs" />
+    <Compile Include="Tokens\Keywords\ElseIFToken.cs" />
+    <Compile Include="Tokens\Keywords\IFToken.cs" />
+    <Compile Include="Tokens\Keywords\Methods\RandomVector4Token.cs" />
+    <Compile Include="Tokens\Keywords\Methods\RandomVector3Token.cs" />
+    <Compile Include="Tokens\Keywords\Methods\RandomVector2Token.cs" />
+    <Compile Include="Tokens\Keywords\Methods\RandomColourToken.cs" />
+    <Compile Include="Tokens\Keywords\Methods\DestroyToken.cs" />
+    <Compile Include="Tokens\Keywords\Methods\CreateToken.cs" />
+    <Compile Include="Tokens\Keywords\Methods\PropSetToken.cs" />
+    <Compile Include="Tokens\Keywords\Variables\ColourToken.cs" />
+    <Compile Include="Tokens\Keywords\Variables\ArrayItemToken.cs" />
+    <Compile Include="Tokens\Keywords\Variables\StringArrayToken.cs" />
+    <Compile Include="Tokens\Keywords\Variables\IntArrayToken.cs" />
+    <Compile Include="Tokens\Keywords\Variables\VectorToken.cs" />
+    <Compile Include="Tokens\Misc\CommaToken.cs" />
+    <Compile Include="Tokens\Numbers\Fractional.cs" />
+    <Compile Include="Tokens\Numbers\DigitSequence.cs" />
+    <Compile Include="Tokens\Numbers\WholeNumber.cs" />
+    <Compile Include="Tokens\Numbers\Significant.cs" />
+    <Compile Include="Tokens\Numbers\Numerical.cs" />
+    <Compile Include="Tokens\Blocks\Expression.cs" />
+    <Compile Include="Tokens\Blocks\TagBlock.cs" />
+    <Compile Include="Tokens\Misc\CharacterSet.cs" />
+    <Compile Include="Tokens\Blocks\NullSpaceBlock.cs" />
+    <Compile Include="Tokens\Operators\Calls\ClosedBracket.cs" />
+    <Compile Include="Tokens\Operators\Calls\ClosedBrace.cs" />
+    <Compile Include="Tokens\Operators\Calls\ClosedCrotchet.cs" />
+    <Compile Include="Tokens\Operators\Calls\ColonSet.cs" />
+    <Compile Include="Tokens\Operators\Calls\HashID.cs" />
+    <Compile Include="Tokens\Misc\FullStop.cs" />
+    <Compile Include="Tokens\Operators\Calls\SemiColon.cs" />
+    <Compile Include="Tokens\Operators\Calls\OpenedCrotchet.cs" />
+    <Compile Include="Tokens\Operators\Calls\OpenedBrace.cs" />
+    <Compile Include="Tokens\Operators\Calls\OpenedBracket.cs" />
+    <Compile Include="Tokens\Operators\Comparison\EqualToOperator.cs" />
+    <Compile Include="Tokens\Keywords\FalseToken.cs" />
+    <Compile Include="Tokens\Keywords\TrueToken.cs" />
+    <Compile Include="Tokens\Numbers\NegitiveSign.cs" />
+    <Compile Include="Tokens\Operators\Infix\CaretOperator.cs" />
+    <Compile Include="Tokens\Operators\Infix\DivideOperator.cs" />
+    <Compile Include="Tokens\Operators\Infix\MultiplyOperator.cs" />
+    <Compile Include="Tokens\Operators\Infix\MinusOperator.cs" />
+    <Compile Include="Tokens\Operators\Infix\PlusOperator.cs" />
+    <Compile Include="Tokens\Misc\ByteDigit.cs" />
+    <Compile Include="Tokens\Operators\Logical\AndOperator.cs" />
+    <Compile Include="Tokens\Operators\Logical\OrOperator.cs" />
+    <Compile Include="Tokens\Operators\Comparison\NotEqualOperator.cs" />
+    <Compile Include="Tokens\Operators\Comparison\NotOperator.cs" />
+    <Compile Include="Tokens\Operators\ShortHand\MinusMinus.cs" />
+    <Compile Include="Tokens\Operators\ShortHand\PlusPlus.cs" />
+    <Compile Include="Tokens\Token.cs" />
+    <Compile Include="Tokens\Lexer.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

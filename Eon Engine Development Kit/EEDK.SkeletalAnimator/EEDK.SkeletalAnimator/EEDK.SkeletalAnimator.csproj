@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A58BD076-8CDB-438B-98C0-2014D4E0265D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EEDK.SkeletalAnimator</RootNamespace>
+    <AssemblyName>EEDK.SkeletalAnimator</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>WindowsGL</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\WindowsGL\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\WindowsGL\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Eon">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 4\Eon\Eon\bin\Debug\Eon.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Engine">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 4\Eon.Engine\Eon.Engine\bin\Debug\Eon.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering2D">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 4\Eon.Rendering2D\Eon.Rendering2D\bin\Debug\Eon.Rendering2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Testing">
+      <HintPath>..\..\..\Eon Engine\Console\Mk 4\Eon.Testing\Eon.Testing\bin\Debug\Eon.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\WindowsGL\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\WindowsGL\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Eon\Fonts\Arial12.bmp" />
+    <Content Include="Content\Eon\Fonts\Arial23.bmp" />
+    <Content Include="Content\Eon\Textures\Blank.png" />
+    <Content Include="Content\Eon\Textures\DefaultDistortionMap.jpg" />
+    <Content Include="Content\Eon\Textures\DefaultSpecularMap.png" />
+    <Content Include="Content\Eon\Textures\DefaultTexture.jpg" />
+    <Content Include="Content\Eon\Textures\NoiseMap.jpg" />
+    <Content Include="Content\Eon\Textures\Pixel.jpg" />
+    <Content Include="Content\GUI\AnimateIcon\PauseIcon.jpg" />
+    <Content Include="Content\GUI\AnimateIcon\PlayIcon.jpg" />
+    <Content Include="Content\GUI\AnimateIcon\ScrubIcon.jpg" />
+    <Content Include="Content\GUI\BinIcon.jpg" />
+    <Content Include="Content\GUI\Cursors\RotateCursor.png" />
+    <Content Include="Content\GUI\Cursors\ScaleCursor.png" />
+    <Content Include="Content\GUI\TransformIcons\Center.png" />
+    <Content Include="Content\GUI\Cursors\Cursor.png" />
+    <Content Include="Content\GUI\DefaultBG.jpg" />
+    <Content Include="Content\GUI\DefaultScrollBG.jpg" />
+    <Content Include="Content\GUI\GridOffIcon.jpg" />
+    <Content Include="Content\GUI\GridOnIcon.jpg" />
+    <Content Include="Content\GUI\LstBack.jpg" />
+    <Content Include="Content\GUI\ScrollBG.jpg" />
+    <Content Include="Content\GUI\TransformIcons\MoveIcon.jpg" />
+    <Content Include="Content\GUI\TransformIcons\MoveIcon_Selected.jpg" />
+    <Content Include="Content\GUI\TransformIcons\OriginIcon.jpg" />
+    <Content Include="Content\GUI\TransformIcons\OriginIcon_Selected.jpg" />
+    <Content Include="Content\GUI\TransformIcons\RotateIcon.jpg" />
+    <Content Include="Content\GUI\TransformIcons\RotateIcon_Selected.jpg" />
+    <Content Include="Content\GUI\TransformIcons\ScaleIcon.jpg" />
+    <Content Include="Content\GUI\TransformIcons\ScaleIcon_Selected.jpg" />
+    <Content Include="Content\GUI\Verdana12pt.bmp" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Content\Eon.Engine" />
+    <None Include="Content\Eon\Textures\DefaultNormalMap.tga" />
+    <None Include="Content\MenuSystem.Menu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Eon Engine\Console\Mk 4\Eon.Animation2D\Eon.Animation2D\Eon.Animation2D.csproj">
+      <Project>{fa7aceb6-d87d-43e7-a56b-d833ddd7ac92}</Project>
+      <Name>Eon.Animation2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Eon Engine\Console\Mk 4\Eon.UIApi\Eon.UIApi\Eon.UIApi.csproj">
+      <Project>{698d042b-a586-4c5b-a051-4ff724290d26}</Project>
+      <Name>Eon.UIApi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EEDK.Gui\EEDK.Gui\EEDK.Gui.csproj">
+      <Project>{adc7c9b4-2f10-4ee8-a601-d0d7a5e69fce}</Project>
+      <Name>EEDK.Gui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <!-- Specify the search path explicitly so the ResolveAssemblyReferences task picks the right ones -->
+  <Target Name="BeforeResolveReferences">
+    <CreateProperty Value="$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows;$(AssemblySearchPaths)">
+      <Output TaskParameter="Value" PropertyName="AssemblySearchPaths" />
+    </CreateProperty>
+  </Target>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

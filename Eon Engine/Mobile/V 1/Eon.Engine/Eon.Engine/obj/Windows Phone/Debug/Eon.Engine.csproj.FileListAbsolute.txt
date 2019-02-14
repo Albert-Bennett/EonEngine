@@ -1,0 +1,16 @@
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Eon.Engine.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\bin\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Eon.Engine.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1\Eon.Engine\Eon.Engine\obj\Windows Phone\Debug\Eon.Engine.pdb

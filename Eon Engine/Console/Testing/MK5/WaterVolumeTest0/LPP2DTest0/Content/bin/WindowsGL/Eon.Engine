@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<FrameworkCreation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TargetFramerate>166</TargetFramerate>
+  <FullScreen>true</FullScreen>
+  <DefaultScreenResolution>0</DefaultScreenResolution>
+  <DefaultScreenSize>0</DefaultScreenSize>
+  <DefaultTextureQuality>2</DefaultTextureQuality>
+  <DefaultLanguage>English</DefaultLanguage>
+  <DictionaryFilepaths>
+    <string></string>
+  </DictionaryFilepaths>
+  <EngineComponents>
+    <ParameterCollection>
+      <ObjectType>Eon.Rendering2D.Framework.Framework</ObjectType>
+      <Parameters/>
+    </ParameterCollection>
+    <ParameterCollection>
+      <ObjectType>Eon.Physics2D.Framework</ObjectType>
+      <Parameters/>
+    </ParameterCollection>
+  </EngineComponents>
+  <AssemblyRefferences>
+    <string>Eon.Rendering2D</string>
+    <string>Eon</string>
+    <string>Eon.Physics2D</string>
+  </AssemblyRefferences>
+</FrameworkCreation>
+

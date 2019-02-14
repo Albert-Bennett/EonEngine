@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8EA6421-BEF4-4F71-8A47-6BF48BCFB210}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eon.Rendering2D</RootNamespace>
+    <AssemblyName>Eon.Rendering2D</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eon">
+      <HintPath>..\..\Eon\Eon\bin\Debug\Eon.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Engine">
+      <HintPath>..\..\Eon.Engine\Eon.Engine\bin\Debug\Eon.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.PostProcessing">
+      <HintPath>..\..\Eon.PostProcessing\Eon.PostProcessing\bin\Debug\Eon.PostProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Testing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.Testing\Eon.Testing\bin\Debug\Eon.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cameras\BaseCamera2D.cs" />
+    <Compile Include="Cameras\CameraManager2D.cs" />
+    <Compile Include="Drawing\DrawingStages.cs" />
+    <Compile Include="Drawing\DrawingManager.cs" />
+    <Compile Include="Drawing\DrawLayerCollection.cs" />
+    <Compile Include="Drawing\DrawLayers.cs" />
+    <Compile Include="Drawing\PostRenderManager.cs" />
+    <Compile Include="Framework\Framework.cs" />
+    <Compile Include="Framework\Misc\Grid.cs" />
+    <Compile Include="Framework\Misc\ImageSet.cs" />
+    <Compile Include="Framework\Misc\ImageSheet.cs" />
+    <Compile Include="Graident.cs" />
+    <Compile Include="Drawing\IDrawItem.cs" />
+    <Compile Include="Lighting\DominateLight2D.cs" />
+    <Compile Include="Lighting\Light2D.cs" />
+    <Compile Include="Lighting\LightingManager2D.cs" />
+    <Compile Include="Lighting\LPP2D.cs" />
+    <Compile Include="Lighting\PointLight2D.cs" />
+    <Compile Include="Framework\Primatives\Line.cs" />
+    <Compile Include="Framework\Primatives\Ring.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextureAtlas.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="TextureGradient.cs" />
+    <Compile Include="Text\ScreenPositions.cs" />
+    <Compile Include="Text\TextBlock.cs" />
+    <Compile Include="Text\TextEffects\Misc.cs" />
+    <Compile Include="Text\TextEffects\NumberAddingTextEffect.cs" />
+    <Compile Include="Text\TextEffects\ProgressiveTextBlock.cs" />
+    <Compile Include="Text\TextEffects\ProgressiveTextEffect.cs" />
+    <Compile Include="Text\TextEffects\RandomLetterTextEffect.cs" />
+    <Compile Include="TextureHelper.cs" />
+    <Compile Include="Text\TextItem.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

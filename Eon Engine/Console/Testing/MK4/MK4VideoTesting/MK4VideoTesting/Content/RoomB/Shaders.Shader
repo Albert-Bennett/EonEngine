@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<ModelInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RotationX>0</RotationX>
+  <RotationY>0</RotationY>
+  <RotationZ>0</RotationZ>
+  <PositionX>0</PositionX>
+  <PositionY>0</PositionY>
+  <PositionZ>0</PositionZ>
+  <Scale>0.8</Scale>
+  <IsStatic>true</IsStatic>
+  <Models>
+    <Keys>
+      <int>0</int>
+    </Keys>
+    <Values>
+      <LODModelInfo>
+        <CollisionModelFilepath>NULL</CollisionModelFilepath>
+        <ModelFilepath>RoomB/Room</ModelFilepath>
+        <Materials>
+          <Keys>
+            <string>Walls</string>
+            <string>Floor</string>
+          </Keys>
+          <Values>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>RoomB/Walls_UV</WeightMapFilepath>
+              <TextureRepeats>6</TextureRepeats>
+              <RFilepath>Textures/Brick</RFilepath>
+              <GFilepath>Textures/Concreate</GFilepath>
+              <BFilepath>Textures/Moss</BFilepath>
+              <RNFilepath>Textures/Brick_Norm</RNFilepath>
+              <GNFilepath>Textures/Concreate_Norm</GNFilepath>
+              <BNFilepath>Textures/Moss_Norm</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>RoomB/Floor_UV</WeightMapFilepath>
+              <TextureRepeats>6</TextureRepeats>
+              <RFilepath>Textures/Concreate</RFilepath>
+              <GFilepath>Textures/Concreate2</GFilepath>
+              <BFilepath>Textures/Damp</BFilepath>
+              <RNFilepath>Textures/Concreate_Norm</RNFilepath>
+              <GNFilepath>Textures/Concreate2_Norm</GNFilepath>
+              <BNFilepath>Textures/Concreate2_Norm</BNFilepath>
+            </Material>
+          </Values>
+        </Materials>
+      </LODModelInfo>
+    </Values>
+  </Models>
+</ModelInfo>

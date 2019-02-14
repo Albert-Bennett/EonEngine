@@ -1,0 +1,4 @@
+C:\Users\Develpement\Desktop\MultiThreadingParams\MultiThreadingParams\bin\Debug\MultiThreadingParams.exe
+C:\Users\Develpement\Desktop\MultiThreadingParams\MultiThreadingParams\bin\Debug\MultiThreadingParams.pdb
+C:\Users\Develpement\Desktop\MultiThreadingParams\MultiThreadingParams\obj\x86\Debug\MultiThreadingParams.exe
+C:\Users\Develpement\Desktop\MultiThreadingParams\MultiThreadingParams\obj\x86\Debug\MultiThreadingParams.pdb

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09237CFD-0CC8-4D32-AA04-5D8F244590F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eon</RootNamespace>
+    <AssemblyName>Eon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lidgren.Network, Version=3.3.0.2238, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.3.0.2238, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Net, Version=3.3.0.2238, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyManager.cs" />
+    <Compile Include="Collections\EonDictionary.cs" />
+    <Compile Include="Collections\EonKeyValuePair.cs" />
+    <Compile Include="Collections\EonList.cs" />
+    <Compile Include="Collections\ParameterCollection.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="Maths\BoundingVolumes\BoundingVolumeTypes.cs" />
+    <Compile Include="Maths\BoundingVolumes\EonBoundingBox.cs" />
+    <Compile Include="Maths\BoundingVolumes\EonBoundingSphere.cs" />
+    <Compile Include="Maths\BoundingVolumes\IBounding.cs" />
+    <Compile Include="Maths\Line3D.cs" />
+    <Compile Include="Maths\FloatRange.cs" />
+    <Compile Include="Maths\IntRange.cs" />
+    <Compile Include="Collections\Trees\BinaryTree.cs" />
+    <Compile Include="Collections\Trees\BinaryTreeNode.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Maths\Line2D.cs" />
+    <Compile Include="Maths\Transformation.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="PropertySet.cs" />
+    <Compile Include="System\Attributes\NoAccessField.cs" />
+    <Compile Include="System\Interfaces\IActive.cs" />
+    <Compile Include="System\Management\EngineModule.cs" />
+    <Compile Include="System\Management\EngineModuleManager.cs" />
+    <Compile Include="System\Management\GameObjectManager.cs" />
+    <Compile Include="System\States\GameStateManager.cs" />
+    <Compile Include="System\Management\Interfaces\IPostRenderComponent.cs" />
+    <Compile Include="System\Management\Interfaces\IRenderComponent.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="System\States\GameStates.cs" />
+    <Compile Include="Helpers\ArrayHelper.cs" />
+    <Compile Include="Maths\Helpers\EonMathsHelper.cs" />
+    <Compile Include="Maths\Helpers\RandomHelper.cs" />
+    <Compile Include="Helpers\SerializationHelper.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="System\Interfaces\IEnabled.cs" />
+    <Compile Include="System\Interfaces\IHoldReferences.cs" />
+    <Compile Include="System\Interfaces\IID.cs" />
+    <Compile Include="System\Interfaces\IPostInitialize.cs" />
+    <Compile Include="System\Interfaces\ISortable.cs" />
+    <Compile Include="System\Interfaces\IUpdate.cs" />
+    <Compile Include="System\Management\Interfaces\IPostGameDraw.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="ObjectComponent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\States\MediaStates.cs" />
+    <Compile Include="System\Tools\ContentBuilder.cs" />
+    <Compile Include="System\Tools\ContentTyper.cs" />
+    <Compile Include="System\Tools\ScreenQuad.cs" />
+    <Compile Include="System\Tools\TextureBuffer.cs" />
+    <Compile Include="System\Resolution\ResolutionManager.cs" />
+    <Compile Include="System\Resolution\ResolutionHelper.cs" />
+    <Compile Include="System\Resolution\ScreenResolutions.cs" />
+    <Compile Include="System\Resolution\TextureQuality.cs" />
+    <Compile Include="System\Tools\TextureBufferManager.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

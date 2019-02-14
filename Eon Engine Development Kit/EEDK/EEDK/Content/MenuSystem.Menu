@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<MenuSystemSetup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Assemblies>
+    <string>EEDK.Gui</string>
+  </Assemblies>
+  <ScreenNames>
+    <string>TitleScreen</string>
+    <string>MainScreen</string>
+  </ScreenNames>
+  <Screens>
+    <ParameterCollection>
+      <ObjectType>EEDK.Gui.TitleScreen</ObjectType>
+    </ParameterCollection>
+    <ParameterCollection>
+      <ObjectType>EEDK.Gui.MainScreen</ObjectType>
+    </ParameterCollection>
+  </Screens>
+</MenuSystemSetup>

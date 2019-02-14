@@ -1,0 +1,7 @@
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.LibraryReader\EEDK.LibraryReader\bin\Debug\EEDK.LibraryReader.exe.config
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK\EEDK\bin\WindowsGL\Debug\EEDK.LibraryReader.exe.config
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK\EEDK\bin\WindowsGL\Debug\EEDK.LibraryReader.exe
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK\EEDK\bin\WindowsGL\Debug\EEDK.LibraryReader.pdb
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.LibraryReader\EEDK.LibraryReader\obj\Debug\EEDK.LibraryReader.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.LibraryReader\EEDK.LibraryReader\obj\Debug\EEDK.LibraryReader.exe
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.LibraryReader\EEDK.LibraryReader\obj\Debug\EEDK.LibraryReader.pdb

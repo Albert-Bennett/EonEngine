@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{005640B0-4721-4539-8312-61FF53E465EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eon.Particles</RootNamespace>
+    <AssemblyName>Eon.Particles</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon\Eon\bin\Debug\Eon.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Animation2D">
+      <HintPath>..\..\Eon.Animation2D\Eon.Animation2D\bin\Debug\Eon.Animation2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Physics2D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.Physics2D\Eon.Physics2D\bin\Debug\Eon.Physics2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Physics3D">
+      <HintPath>..\..\Eon.Physics3D\Eon.Physics3D\bin\Debug\Eon.Physics3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering2D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.Rendering2D\Eon.Rendering2D\bin\Debug\Eon.Rendering2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering3D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.Rendering3D\Eon.Rendering3D\bin\Debug\Eon.Rendering3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Testing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.Testing\Eon.Testing\bin\Debug\Eon.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attachments\Base\AttachmentPool.cs" />
+    <Compile Include="Attachments\Base\AttachmentTypes.cs" />
+    <Compile Include="Attachments\Base\IAttachment.cs" />
+    <Compile Include="Attachments\Base\IUpdateAttachment.cs" />
+    <Compile Include="Attachments\Base\PropertySet.cs" />
+    <Compile Include="Attachments\ColourAttachment.cs" />
+    <Compile Include="Attachments\ColourDecayAttachment.cs" />
+    <Compile Include="Attachments\ColourRandomAttachment.cs" />
+    <Compile Include="Attachments\RotationalAttachment.cs" />
+    <Compile Include="Attachments\RotationAttachment.cs" />
+    <Compile Include="Attachments\ScaleAttachment.cs" />
+    <Compile Include="Attachments\ScaleDecayAttachment.cs" />
+    <Compile Include="Base\IGenerateRenderer.cs" />
+    <Compile Include="Cycles\ICycle.cs" />
+    <Compile Include="Cycles\IntervalCycle.cs" />
+    <Compile Include="Cycles\RandomCycle.cs" />
+    <Compile Include="D2\EmittionTypes\Base\IEmitter2D.cs" />
+    <Compile Include="D2\EmittionTypes\RectangularEmitter.cs" />
+    <Compile Include="D2\EmittionTypes\LinearEmitter2D.cs" />
+    <Compile Include="D2\EmittionTypes\PointEmitter2D.cs" />
+    <Compile Include="D2\EmittionTypes\CircularEmitter.cs" />
+    <Compile Include="D2\Lightning\FracturedLightning.cs" />
+    <Compile Include="D2\Lightning\LightningBolt.cs" />
+    <Compile Include="D2\Lightning\LightningText.cs" />
+    <Compile Include="D2\Misc\RainSheet.cs" />
+    <Compile Include="D2\Misc\SheetSet.cs" />
+    <Compile Include="D2\Particle2D.cs" />
+    <Compile Include="D2\ParticleEmitter2D.cs" />
+    <Compile Include="D2\ParticleSystem2D.cs" />
+    <Compile Include="D2\ParticleSystem2DInfo.cs" />
+    <Compile Include="D2\RenderMethods\AnimatedSpriteCache.cs" />
+    <Compile Include="D2\RenderMethods\AnimatedSpriteRenderer.cs" />
+    <Compile Include="Base\IParticleRenderer.cs" />
+    <Compile Include="Base\IUpdateableRenderer.cs" />
+    <Compile Include="D2\RenderMethods\I2DParticleRenderer.cs" />
+    <Compile Include="D2\RenderMethods\RandomTextureRenderer.cs" />
+    <Compile Include="D2\RenderMethods\SpriteRenderer.cs" />
+    <Compile Include="D3\EmittionTypes\PlanarEmitter.cs" />
+    <Compile Include="D3\EmittionTypes\CubicalEmitter.cs" />
+    <Compile Include="D3\EmittionTypes\Base\IEmitter3D.cs" />
+    <Compile Include="D3\EmittionTypes\CylindricalEmitter.cs" />
+    <Compile Include="D3\EmittionTypes\LinearEmitter3D.cs" />
+    <Compile Include="D3\EmittionTypes\PointEmitter3D.cs" />
+    <Compile Include="D3\EmittionTypes\SphericalEmitter.cs" />
+    <Compile Include="D3\Particle3D.cs" />
+    <Compile Include="D3\ParticleEmitter3D.cs" />
+    <Compile Include="D3\ParticleSystem3D.cs" />
+    <Compile Include="D3\ParticleSystem3DInfo.cs" />
+    <Compile Include="D3\RenderMethods\AnimatedBBParticleRender.cs" />
+    <Compile Include="D3\RenderMethods\BBParticleRenderer.cs" />
+    <Compile Include="D3\RenderMethods\I3DParticleRenderer.cs" />
+    <Compile Include="D3\RenderMethods\ModelParticleRenderer.cs" />
+    <Compile Include="D3\RenderMethods\RandomBBParticleRenderer.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="ParticleEmitterInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

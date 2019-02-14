@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Setup>
+  <Assemblies>
+    <AssemblyCount>
+      <Value>2</Value>
+    </AssemblyCount>
+
+    <Assembly0>
+      <Value>Eon.Rendering2D</Value>
+    </Assembly0>
+    <Assembly1>
+      <Value>Eon.Physics2D</Value>
+    </Assembly1>
+  </Assemblies>
+  
+  <Components>
+    <ComponentCount>
+      <Value>2</Value>
+    </ComponentCount>
+
+    <Component0>
+      <Value>Eon.Rendering2D.Framework.Framework</Value>
+    </Component0>
+    <Component1>
+      <Value>Eon.Physics2D.Framework</Value>
+    </Component1>
+  </Components>
+</Setup>

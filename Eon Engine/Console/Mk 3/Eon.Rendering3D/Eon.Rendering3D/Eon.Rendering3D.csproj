@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6A855FD-D279-454D-A027-AC473862D6BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eon.Rendering3D</RootNamespace>
+    <AssemblyName>Eon.Rendering3D</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon\Eon\bin\Debug\Eon.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.PostProcessing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.PostProcessing\Eon.PostProcessing\bin\Debug\Eon.PostProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Rendering2D">
+      <HintPath>..\..\Eon.Rendering2D\Eon.Rendering2D\bin\Debug\Eon.Rendering2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Eon.Testing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.Testing\Eon.Testing\bin\Debug\Eon.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cameras\CameraComponent.cs" />
+    <Compile Include="Cameras\CameraManager.cs" />
+    <Compile Include="Cameras\ChaseCamera.cs" />
+    <Compile Include="Cameras\FreeCamera.cs" />
+    <Compile Include="Cameras\TargetCamera.cs" />
+    <Compile Include="Framework\ILODRenderer.cs" />
+    <Compile Include="Framework\Rendering\Peel.cs" />
+    <Compile Include="Framework\Rendering\Shadowing\CascadingSplits.cs" />
+    <Compile Include="Framework\Rendering\Shadowing\ShadowEntry.cs" />
+    <Compile Include="Framework\Rendering\Shadowing\PCFFiltering.cs" />
+    <Compile Include="Framework\Rendering\Shadowing\ShadowRenderer.cs" />
+    <Compile Include="Framework\Shaders\DTLPPMaterial.cs" />
+    <Compile Include="Framework\Shaders\LODModelInfo.cs" />
+    <Compile Include="Framework\Shaders\LPPTerrainMaterial.cs" />
+    <Compile Include="Framework\Shaders\ModelInfo.cs" />
+    <Compile Include="LODLevels.cs" />
+    <Compile Include="Culling\ViewClippingFrustum.cs" />
+    <Compile Include="Culling\ViewClippingPlane.cs" />
+    <Compile Include="Culling\Helpers\IntersectionHelper.cs" />
+    <Compile Include="Culling\Helpers\IntersectionTypes.cs" />
+    <Compile Include="Culling\IClippingShape.cs" />
+    <Compile Include="Culling\ProjectionRectangle.cs" />
+    <Compile Include="Culling\ViewClippingShape.cs" />
+    <Compile Include="Framework\Billboards\AnimatedBillboard.cs" />
+    <Compile Include="Framework\Billboards\LockedAxisBillboard.cs" />
+    <Compile Include="Framework\Billboards\Billboard.cs" />
+    <Compile Include="Framework\IRenderable3D.cs" />
+    <Compile Include="Framework\ITechniqueRenderer.cs" />
+    <Compile Include="Framework\Rendering\DepthPeeling.cs" />
+    <Compile Include="Framework\Framework.cs" />
+    <Compile Include="Framework\Rendering\Lighting\ICastShadows.cs" />
+    <Compile Include="Framework\Rendering\Lighting\LightManager.cs" />
+    <Compile Include="Framework\Rendering\RenderManager.cs" />
+    <Compile Include="Framework\Shaders\AnimatedTextureMaterial.cs" />
+    <Compile Include="Framework\Shaders\BasicMaterial.cs" />
+    <Compile Include="Framework\Shaders\BasicLPPMaterial.cs" />
+    <Compile Include="Framework\Shaders\Shader.cs" />
+    <Compile Include="Framework\Rendering\Lighting\DirectionalLight.cs" />
+    <Compile Include="Framework\Rendering\Lighting\LightComponent3D.cs" />
+    <Compile Include="Framework\Rendering\LightingPrePass.cs" />
+    <Compile Include="Framework\Rendering\Lighting\MeshLight.cs" />
+    <Compile Include="Framework\Rendering\Lighting\PointLight.cs" />
+    <Compile Include="Framework\Rendering\Lighting\SpotLight.cs" />
+    <Compile Include="LODManager.cs" />
+    <Compile Include="LODModel.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="Primatives\BaseLOD.cs" />
+    <Compile Include="Primatives\Constructs\CubePrimative.cs" />
+    <Compile Include="Primatives\Constructs\CylinderPrimative.cs" />
+    <Compile Include="Primatives\Constructs\LinePrimative.cs" />
+    <Compile Include="Primatives\Vertices\VertexHelper.cs" />
+    <Compile Include="Primatives\Vertices\VertexPositionTangent.cs" />
+    <Compile Include="Primatives\LODCube.cs" />
+    <Compile Include="Primatives\LODCylinder.cs" />
+    <Compile Include="Primatives\LODLine.cs" />
+    <Compile Include="Primatives\LODPlane.cs" />
+    <Compile Include="Primatives\Constructs\PlanePrimative.cs" />
+    <Compile Include="Primatives\Constructs\Primative.cs" />
+    <Compile Include="Primatives\Constructs\SpherePrimative.cs" />
+    <Compile Include="Primatives\LODSphere.cs" />
+    <Compile Include="RenderTypes.cs" />
+    <Compile Include="MeshPart.cs" />
+    <Compile Include="ModelComponent.cs" />
+    <Compile Include="ModelManager.cs" />
+    <Compile Include="Primatives\Constructs\PrimativeData.cs" />
+    <Compile Include="Primatives\Constructs\TrianglePrimative.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

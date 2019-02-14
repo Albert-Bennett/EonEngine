@@ -1,0 +1,17 @@
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\EEDK.Crosswalk.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\EEDK.Crosswalk.pdb
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\obj\Debug\EEDK.Crosswalk.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\obj\Debug\EEDK.Crosswalk.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\obj\Debug\EEDK.Crosswalk.pdb
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\MonoGame.Framework.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Eon.Testing.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Eon.Testing.pdb
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\OpenTK.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Lidgren.Network.dll
+C:\Users\Develpement\Desktop\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\bin\Debug\Tao.Sdl.dll
+G:\Company\Eon Engine\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\obj\Debug\EEDK.Crosswalk.csprojResolveAssemblyReference.cache
+G:\Company\Eon Engine\Eon Engine Development Kit\EEDK.Crosswalk\EEDK.Crosswalk\obj\Debug\EEDK.Crosswalk.dll

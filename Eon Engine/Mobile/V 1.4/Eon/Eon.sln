@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eon", "Eon\Eon.csproj", "{2608D824-822C-429A-8076-F6F8EC6D2425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2608D824-822C-429A-8076-F6F8EC6D2425}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{2608D824-822C-429A-8076-F6F8EC6D2425}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{2608D824-822C-429A-8076-F6F8EC6D2425}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{2608D824-822C-429A-8076-F6F8EC6D2425}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

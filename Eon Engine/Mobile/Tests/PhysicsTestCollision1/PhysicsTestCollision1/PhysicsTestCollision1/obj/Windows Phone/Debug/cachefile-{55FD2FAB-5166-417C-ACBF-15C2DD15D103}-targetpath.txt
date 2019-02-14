@@ -1,0 +1,6 @@
+Content\Eon.xnb
+Content\Eon\Fonts\Arial12.xnb
+Content\Eon\Fonts\Arial23.xnb
+Content\Eon\Textures\Blank.xnb
+Content\Eon\Textures\DefaultTexture.xnb
+Content\BlackTexture.xnb

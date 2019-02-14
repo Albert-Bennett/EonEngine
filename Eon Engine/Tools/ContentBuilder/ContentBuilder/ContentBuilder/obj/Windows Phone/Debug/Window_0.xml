@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Plane</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilderContent\Window.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>2.55339756E-07 3.38207769 -2.55339756E-07 0 -3.38207769 2.55339756E-07 -1.9E-14 0 0 2.55339756E-07 3.38207769 0 0 0 0 1</Transform>
+    <Positions>3.360739 -1 0 -1 -1 0 3.360739 1 0 -1 1 0 3.360739 -1 -0.13599 -1 -1 -0.13599 3.360739 1 -0.13599 -1 1 -0.13599</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 4 7 6</Indices>
+        <Vertices>
+          <PositionIndices>1 0 2 3 5 7 6 4</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.000136 0.999865 0.999865 0.999864 0.999865 0.541351 0.000135 0.541351 0.000135 0.082566 0.000135 0.54108 0.999865 0.54108 0.999865 0.082566</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>Material_001__UV</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilderContent\Window.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\ContentBuilderContent\UVMap.jpg</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

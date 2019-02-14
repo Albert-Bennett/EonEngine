@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Develpement/Desktop/Eon Engine/Console/Testing/MK4/MK4VideoTesting/MK4VideoTesting/Content/Terrain/UV5.png</SourceFile>
+  <SourceTime>2015-04-01T15:57:30.7502274+01:00</SourceTime>
+  <DestFile>C:/Users/Develpement/Desktop/Eon Engine/Console/Testing/MK4/MK4VideoTesting/MK4VideoTesting/Content/bin/WindowsGL/Terrain/UV5_0.xnb</DestFile>
+  <DestTime>2015-07-17T11:31:33.1276912+01:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2015-03-16T03:01:46+00:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2015-03-16T03:01:46+00:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>0,0,0,0</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>DxtCompressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

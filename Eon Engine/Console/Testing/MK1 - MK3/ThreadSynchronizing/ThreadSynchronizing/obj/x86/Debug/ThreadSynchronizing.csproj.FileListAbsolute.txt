@@ -1,0 +1,9 @@
+C:\Users\Develpement\AppData\Local\Temporary Projects\ThreadSynchronizing\bin\Debug\ThreadSynchronizing.exe
+C:\Users\Develpement\AppData\Local\Temporary Projects\ThreadSynchronizing\bin\Debug\ThreadSynchronizing.pdb
+C:\Users\Develpement\AppData\Local\Temporary Projects\ThreadSynchronizing\obj\x86\Debug\ThreadSynchronizing.exe
+C:\Users\Develpement\AppData\Local\Temporary Projects\ThreadSynchronizing\obj\x86\Debug\ThreadSynchronizing.pdb
+C:\Users\Develpement\Desktop\ThreadSynchronizing\ThreadSynchronizing\obj\x86\Debug\ThreadSynchronizing.exe
+C:\Users\Develpement\Desktop\ThreadSynchronizing\ThreadSynchronizing\obj\x86\Debug\ThreadSynchronizing.pdb
+C:\Users\Develpement\Desktop\ThreadSynchronizing\ThreadSynchronizing\bin\Debug\ThreadSynchronizing.exe
+C:\Users\Develpement\Desktop\ThreadSynchronizing\ThreadSynchronizing\bin\Debug\ThreadSynchronizing.pdb
+C:\Users\Develpement\Desktop\ThreadSynchronizing\ThreadSynchronizing\obj\x86\Debug\ThreadSynchronizing.csprojResolveAssemblyReference.cache

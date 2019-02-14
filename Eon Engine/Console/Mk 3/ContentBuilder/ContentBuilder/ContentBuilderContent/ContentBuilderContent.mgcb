@@ -1,0 +1,321 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin
+/intermediateDir:obj
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\Lidgren.Network.dll
+/reference:..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll
+/reference:..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.Net.dll
+/reference:..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\OpenTK.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Eon/Shaders/Lighting/2D/2DPointLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/2D/2DPointLight.fx
+
+#begin Eon/Shaders/Lighting/ClearGBuffer.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/ClearGBuffer.fx
+
+#begin Eon/Shaders/Lighting/2D/Compose.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/2D/Compose.fx
+
+#begin Eon/Shaders/Lighting/2D/DominateLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/2D/DominateLight.fx
+
+#begin Eon/Shaders/Materials/AnimatedTexture.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/AnimatedTexture.fx
+
+#begin Eon/Shaders/Materials/BasicEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/BasicEffect.fx
+
+#begin Eon/Shaders/PostProcessing/ComposeBloom.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/ComposeBloom.fx
+
+#begin Eon/Shaders/PostProcessing/Distortion.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/Distortion.fx
+
+#begin Eon/Shaders/PostProcessing/ExtractSaturation.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/ExtractSaturation.fx
+
+#begin Eon/Shaders/PostProcessing/GausianBlur.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/GausianBlur.fx
+
+#begin Eon/Shaders/PostProcessing/Negitive.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/Negitive.fx
+
+#begin Eon/Shaders/PostProcessing/SelectiveDesaturate.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/SelectiveDesaturate.fx
+
+#begin Environments/Misc/Lights/PointLight0/PointLight.fbx
+/importer:FbxImporter
+/processor:ModelProcessor
+/processorParam:ColorKeyColor=0,0,0,0
+/processorParam:ColorKeyEnabled=True
+/processorParam:DefaultEffect=BasicEffect
+/processorParam:GenerateMipmaps=True
+/processorParam:GenerateTangentFrames=True
+/processorParam:PremultiplyTextureAlpha=True
+/processorParam:PremultiplyVertexColors=True
+/processorParam:ResizeTexturesToPowerOfTwo=False
+/processorParam:RotationX=0
+/processorParam:RotationY=0
+/processorParam:RotationZ=0
+/processorParam:Scale=1
+/processorParam:SwapWindingOrder=False
+/processorParam:TextureFormat=DxtCompressed
+/build:Environments/Misc/Lights/PointLight0/PointLight.fbx
+
+#begin Eon/Shaders/Materials/TerrainLPP.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/TerrainLPP.fx
+
+#begin Eon/Fonts/Arial12.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Eon/Fonts/Arial12.bmp
+
+#begin Eon/Fonts/Arial23.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Eon/Fonts/Arial23.bmp
+
+#begin Eon/Textures/DefaultNormalMap.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/DefaultNormalMap.tga
+
+#begin Eon/Shaders/Materials/BasicLPPMaterial.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/BasicLPPMaterial.fx
+
+#begin Eon/Shaders/PostProcessing/Fog.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/Fog.fx
+
+#begin Eon/Shaders/Lighting/3D/Shadowing/ShadowMap.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/3D/Shadowing/ShadowMap.fx
+
+#begin Eon/Shaders/PostProcessing/DOF.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/DOF.fx
+
+#begin Eon/Shaders/PostProcessing/MotionBlur.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/MotionBlur.fx
+
+#begin Eon/Shaders/Materials/Billboard.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/Billboard.fx
+
+#begin Eon/Shaders/Materials/AnimatedBillboard.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/AnimatedBillboard.fx
+
+#begin Eon/Shaders/Materials/LABillboard.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/LABillboard.fx
+
+#begin Eon/Textures/DefaultSpecularMap.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/DefaultSpecularMap.png
+
+#begin Eon/Textures/Pixel.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/Pixel.jpg
+
+#begin Eon/Shaders/Lighting/3D/Shadowing/OcclusionMap.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/3D/Shadowing/OcclusionMap.fx
+
+#begin Eon/Shaders/Materials/DTLPPMaterial.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Materials/DTLPPMaterial.fx
+
+#begin Eon/Textures/Blank.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/Blank.png
+
+#begin Environments/Misc/Lights/PointLight0/SpecMap.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Environments/Misc/Lights/PointLight0/SpecMap.png
+
+#begin Environments/Misc/Lights/PointLight0/UV.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Environments/Misc/Lights/PointLight0/UV.png
+
+#begin Environments/Entrance/LandingPad_Norm.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Environments/Entrance/LandingPad_Norm.png
+
+#begin Environments/Entrance/LandingPad_Spec.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Environments/Entrance/LandingPad_Spec.png
+
+#begin Environments/Entrance/LandingPad_UV.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Environments/Entrance/LandingPad_UV.png
+
+#begin Eon/Shaders/Lighting/3D/Compose.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/3D/Compose.fx
+
+#begin Eon/Shaders/Lighting/3D/DirectionalLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/3D/DirectionalLight.fx
+
+#begin Eon/Shaders/Lighting/3D/MergePeels.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/3D/MergePeels.fx
+
+#begin Eon/Shaders/Lighting/3D/PointLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/3D/PointLight.fx
+
+#begin Eon/Shaders/Lighting/3D/SpotLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/3D/SpotLight.fx
+

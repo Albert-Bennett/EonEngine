@@ -1,0 +1,154 @@
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\MonoGame.Framework.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Text.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\OpenTK.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Lidgren.Network.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Tao.Sdl.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Text.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 1\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\MonoGame.Framework.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\OpenTK.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Lidgren.Network.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Tao.Sdl.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\MonoGame.Framework.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\MonoGame.Framework.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 2\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\MonoGame.Framework.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.dll
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.pdb
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.xml
+C:\Users\Develpement\Desktop\To new HDD\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.UIApi.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\MonoGame.Framework.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Engine.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Rendering2D.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.Testing.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\Eon.PostProcessing.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\bin\Debug\SharpDX.XInput.xml
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.dll
+C:\Users\Develpement\Desktop\Eon Engine\Console\Mk 3\Eon.UIApi\Eon.UIApi\obj\Debug\Eon.UIApi.pdb

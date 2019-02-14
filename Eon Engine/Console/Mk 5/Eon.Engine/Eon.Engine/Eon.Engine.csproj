@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E24AB662-6E4B-4100-BC2F-6548DAAF6F69}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eon.Engine</RootNamespace>
+    <AssemblyName>Eon.Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eon.Testing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Eon.Testing\Eon.Testing\bin\Debug\Eon.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AudioManager.cs" />
+    <Compile Include="InputHandler.cs" />
+    <Compile Include="Media\Audio\Components\AudioComponent.cs" />
+    <Compile Include="Media\Audio\Components\SoundDrif.cs" />
+    <Compile Include="Media\Audio\CueInfo.cs" />
+    <Compile Include="Media\Audio\JJax.cs" />
+    <Compile Include="Media\Audio\JJaxAreaSoundEffect.cs" />
+    <Compile Include="Media\Audio\JJaxCategory.cs" />
+    <Compile Include="Media\Audio\JJaxCue.cs" />
+    <Compile Include="Input\GamePadButtons.cs" />
+    <Compile Include="Input\TouchPad.cs" />
+    <Compile Include="Input\Keys.cs" />
+    <Compile Include="Input\Mouse.cs" />
+    <Compile Include="Media\Video\Video.cs" />
+    <Compile Include="Input\MouseButtons.cs" />
+    <Compile Include="Input\PlayerIndex.cs" />
+    <Compile Include="Input\TouchInputs.cs" />
+    <Compile Include="Input\TriggerIndex.cs" />
+    <Compile Include="Languages\Dictionary.cs" />
+    <Compile Include="Languages\DictionaryManager.cs" />
+    <Compile Include="Media\Audio\Misc.cs" />
+    <Compile Include="Framework.cs" />
+    <Compile Include="FrameworkCreation.cs" />
+    <Compile Include="Input\InputManager.cs" />
+    <Compile Include="Input\BaseInputItem.cs" />
+    <Compile Include="Input\GamePad.cs" />
+    <Compile Include="Input\Keyboard.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Eon\Eon\Eon.csproj">
+      <Project>{09237cfd-0cc8-4d32-aa04-5d8f244590f7}</Project>
+      <Name>Eon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

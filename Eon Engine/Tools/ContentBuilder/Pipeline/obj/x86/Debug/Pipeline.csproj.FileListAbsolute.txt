@@ -1,0 +1,5 @@
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\Pipeline\bin\x86\Debug\Pipeline.dll
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\Pipeline\bin\x86\Debug\Pipeline.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\Pipeline\obj\x86\Debug\Pipeline.dll
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\Pipeline\obj\x86\Debug\Pipeline.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\Pipeline\obj\x86\Debug\Pipeline.csprojResolveAssemblyReference.cache

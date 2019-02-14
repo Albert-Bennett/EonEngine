@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<ModelInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RotationX>0</RotationX>
+  <RotationY>0</RotationY>
+  <RotationZ>0</RotationZ>
+  <PositionX>0</PositionX>
+  <PositionY>0</PositionY>
+  <PositionZ>0</PositionZ>
+  <Scale>0.8</Scale>
+  <IsStatic>true</IsStatic>
+  <Models>
+    <Keys>
+      <int>0</int>
+    </Keys>
+    <Values>
+      <LODModelInfo>
+        <CollisionModelFilepath>NULL</CollisionModelFilepath>
+        <ModelFilepath>RoomC/Room</ModelFilepath>
+        <Materials>
+          <Keys>
+            <string>Walls0</string>
+            <string>Floor0</string>
+            <string>Walls1</string>
+            <string>Floor1</string>
+          </Keys>
+          <Values>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>RoomC/Walls0_UV</WeightMapFilepath>
+              <TextureRepeats>6</TextureRepeats>
+              <RFilepath>Textures/Brick</RFilepath>
+              <GFilepath>Textures/Plaster</GFilepath>
+              <BFilepath>Textures/Moss</BFilepath>
+              <RNFilepath>Textures/Brick_Norm</RNFilepath>
+              <GNFilepath>Textures/Plaster_Norm</GNFilepath>
+              <BNFilepath>Textures/Moss_Norm</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>RoomC/Floor0_UV</WeightMapFilepath>
+              <TextureRepeats>6</TextureRepeats>
+              <RFilepath>Textures/Tiles</RFilepath>
+              <GFilepath>Textures/Moss</GFilepath>
+              <BFilepath>Textures/Concreate</BFilepath>
+              <RNFilepath>Textures/Tiles_Norm</RNFilepath>
+              <GNFilepath>Textures/Moss_Norm</GNFilepath>
+              <BNFilepath>Textures/Concreate_Norm</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>RoomC/Walls1_UV</WeightMapFilepath>
+              <TextureRepeats>6</TextureRepeats>
+              <RFilepath>Textures/Brick</RFilepath>
+              <GFilepath>Textures/Plaster</GFilepath>
+              <BFilepath>Textures/Moss</BFilepath>
+              <RNFilepath>Textures/Brick_Norm</RNFilepath>
+              <GNFilepath>Textures/Plaster_Norm</GNFilepath>
+              <BNFilepath>Textures/Moss_Norm</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>RoomC/Floor1_UV</WeightMapFilepath>
+              <TextureRepeats>6</TextureRepeats>
+              <RFilepath>Textures/Tiles</RFilepath>
+              <GFilepath>Textures/Moss</GFilepath>
+              <BFilepath>Textures/Concreate</BFilepath>
+              <RNFilepath>Textures/Tiles_Norm</RNFilepath>
+              <GNFilepath>Textures/Moss_Norm</GNFilepath>
+              <BNFilepath>Textures/Concreate_Norm</BNFilepath>
+            </Material>
+          </Values>
+        </Materials>
+      </LODModelInfo>
+    </Values>
+  </Models>
+</ModelInfo>

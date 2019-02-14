@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eon.AnimaticSystem", "Eon.AnimaticSystem\Eon.AnimaticSystem.csproj", "{29FE3B58-B31D-4194-99EA-513BEFD87000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FE3B58-B31D-4194-99EA-513BEFD87000}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{29FE3B58-B31D-4194-99EA-513BEFD87000}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{29FE3B58-B31D-4194-99EA-513BEFD87000}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{29FE3B58-B31D-4194-99EA-513BEFD87000}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

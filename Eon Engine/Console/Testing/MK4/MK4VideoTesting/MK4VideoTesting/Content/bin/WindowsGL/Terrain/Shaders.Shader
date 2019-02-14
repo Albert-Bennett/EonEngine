@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<ModelInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RotationX>0</RotationX>
+  <RotationY>0</RotationY>
+  <RotationZ>0</RotationZ>
+  <PositionX>0</PositionX>
+  <PositionY>0</PositionY>
+  <PositionZ>0</PositionZ>
+  <Scale>4</Scale>
+  <IsStatic>true</IsStatic>
+  <Models>
+    <Keys>
+      <int>0</int>
+    </Keys>
+    <Values>
+      <LODModelInfo>
+        <CollisionModelFilepath>NULL</CollisionModelFilepath>
+        <ModelFilepath>Terrain/Terrain</ModelFilepath>
+        <Materials>
+          <Keys>
+            <string>P0</string>
+            <string>P1</string>
+            <string>P2</string>
+            <string>P3</string>
+            <string>P4</string>
+            <string>P5</string>
+            <string>P6</string>
+            <string>P7</string>
+            <string>P8</string>
+          </Keys>
+          <Values>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV0</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV1</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV2</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV3</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV4</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV5</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV6</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV7</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+            <Material xsi:type="LPPTerrainMaterial">
+              <WeightMapFilepath>Terrain/UV8</WeightMapFilepath>
+              <TextureRepeats>8</TextureRepeats>
+              <RFilepath>Terrain/R</RFilepath>
+              <GFilepath>Terrain/G</GFilepath>
+              <BFilepath>Terrain/B</BFilepath>
+              <RNFilepath>Terrain/RN</RNFilepath>
+              <GNFilepath>Terrain/GN</GNFilepath>
+              <BNFilepath>Terrain/BN</BNFilepath>
+            </Material>
+          </Values>
+        </Materials>
+      </LODModelInfo>
+    </Values>
+  </Models>
+</ModelInfo>

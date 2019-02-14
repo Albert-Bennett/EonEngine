@@ -1,0 +1,262 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/WindowsGL
+/intermediateDir:obj/WindowsGL
+/platform:WindowsGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Eon/Fonts/Arial12.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Eon/Fonts/Arial12.bmp
+
+#begin Eon/Fonts/Arial23.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Eon/Fonts/Arial23.bmp
+
+#begin Eon/Textures/Blank.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/Blank.png
+
+#begin Eon/Textures/DefaultDistortionMap.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/DefaultDistortionMap.jpg
+
+#begin Eon/Textures/DefaultSpecularMap.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/DefaultSpecularMap.png
+
+#begin Eon/Textures/DefaultTexture.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/DefaultTexture.jpg
+
+#begin Eon/Textures/NoiseMap.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/NoiseMap.jpg
+
+#begin Eon/Textures/Pixel.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/Pixel.jpg
+
+#begin Eon/Shaders/PostProcessing/Common.fxh
+/copy:Eon/Shaders/PostProcessing/Common.fxh
+
+#begin Eon/Shaders/PostProcessing/ComposeBloom.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/ComposeBloom.fx
+
+#begin Eon/Shaders/PostProcessing/Distortion.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/Distortion.fx
+
+#begin Eon/Shaders/PostProcessing/DOF.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/DOF.fx
+
+#begin Eon/Shaders/PostProcessing/ExtractSaturation.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/ExtractSaturation.fx
+
+#begin Eon/Shaders/PostProcessing/Fog.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/Fog.fx
+
+#begin Eon/Shaders/PostProcessing/GausianBlur.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/GausianBlur.fx
+
+#begin Eon/Shaders/PostProcessing/MotionBlur.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/MotionBlur.fx
+
+#begin Eon/Shaders/PostProcessing/Negitive.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/Negitive.fx
+
+#begin Eon/Shaders/PostProcessing/RainGlass.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/RainGlass.fx
+
+#begin Eon/Shaders/PostProcessing/SelectiveDesaturate.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/PostProcessing/SelectiveDesaturate.fx
+
+#begin Eon/Shaders/Lighting/ClearGBuffer.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/ClearGBuffer.fx
+
+#begin Eon/Shaders/Lighting/2D/2DPointLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/2D/2DPointLight.fx
+
+#begin Eon/Shaders/Lighting/2D/Compose.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/2D/Compose.fx
+
+#begin Eon/Shaders/Lighting/2D/DominateLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Eon/Shaders/Lighting/2D/DominateLight.fx
+
+#begin TestContent/Neather.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:TestContent/Neather.png
+
+#begin TestContent/NeatherNorm.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:TestContent/NeatherNorm.png
+
+#begin TestContent/Level1-1.Tiles
+/copy:TestContent/Level1-1.Tiles
+
+#begin Eon.Engine
+/copy:Eon.Engine
+
+#begin TestContent/Level1-2.Tiles
+/copy:TestContent/Level1-2.Tiles
+
+#begin TestContent/Forest.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:TestContent/Forest.png
+
+#begin TestContent/Forest_Normal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:TestContent/Forest_Normal.png
+
+#begin TestContent/Level1-3.Tiles
+/copy:TestContent/Level1-3.Tiles
+
+#begin TestContent/NightTime.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:TestContent/NightTime.png
+
+#begin Eon/Textures/DefaultNormalMap.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:TextureFormat=Color
+/build:Eon/Textures/DefaultNormalMap.jpg
+

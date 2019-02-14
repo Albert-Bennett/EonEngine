@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ModelDefination xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CollisionModelFilepath>NULL</CollisionModelFilepath>
+  <RotationalOffset>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>0</Z>
+  </RotationalOffset>
+  <PositionalOffset>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>0</Z>
+  </PositionalOffset>
+  <Scale>1</Scale>
+  <Shaders>
+    <Keys>
+      <string>Cube</string>
+    </Keys>
+    <Values>
+      <Shader>
+        <Parameters>
+          <ShaderParameter>
+            <ParameterName>ColourMap</ParameterName>
+            <ValueType>Texture2D</ValueType>
+            <ValueString>Models/Cube/CubeUV2</ValueString>
+          </ShaderParameter>
+        </Parameters>
+        <ShaderFilepath>Eon/Shaders/Materials/BasicEffect</ShaderFilepath>
+        <DefaultTechnique>ForwardRender</DefaultTechnique>
+        <RenderType>Transparency</RenderType>
+      </Shader>
+    </Values>
+  </Shaders>
+</ModelDefination>

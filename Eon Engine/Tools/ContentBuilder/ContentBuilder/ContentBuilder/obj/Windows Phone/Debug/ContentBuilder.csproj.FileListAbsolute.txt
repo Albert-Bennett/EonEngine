@@ -1,0 +1,17 @@
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\ContentBuilder.dll
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\ContentBuilder.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\obj\Windows Phone\Debug\ContentBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\obj\Windows Phone\Debug\ContentBuilder.dll
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\obj\Windows Phone\Debug\ContentBuilder.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\ContentBuilder.xap
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\Content\Eon.Engine
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\Content\Window.xnb
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\Content\TransparencyMap.xnb
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\Content\UVMap.xnb
+C:\Users\Develpement\Desktop\Eon Engine\Tools\ContentBuilder\ContentBuilder\ContentBuilder\bin\Windows Phone\Debug\Content\UVMap_0.xnb

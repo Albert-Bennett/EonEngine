@@ -1,0 +1,12 @@
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon\Eon\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon\Eon\bin\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon\Eon\bin\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon\Eon\obj\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon\Eon\obj\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\Eon\Eon\obj\Windows Phone\Debug\Eon.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1.4\Eon\Eon\bin\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1.4\Eon\Eon\bin\Windows Phone\Debug\Eon.pdb
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1.4\Eon\Eon\obj\Windows Phone\Debug\Eon.csprojResolveAssemblyReference.cache
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1.4\Eon\Eon\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1.4\Eon\Eon\obj\Windows Phone\Debug\Eon.dll
+C:\Users\Develpement\Desktop\Eon Engine\Mobile\V 1.4\Eon\Eon\obj\Windows Phone\Debug\Eon.pdb

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>WindowsGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Fonts/Arial12.bmp</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Fonts/Arial23.bmp</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Textures/Blank.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Textures/DefaultDistortionMap.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Textures/DefaultNormalMap.tga</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Textures/DefaultSpecularMap.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Textures/DefaultTexture.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Textures/NoiseMap.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/Eon/Textures/Pixel.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/Cursors/Cursor.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/BinIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/DefaultBG.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/DefaultScrollBG.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/GridOffIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/GridOnIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/LstBack.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/ScrollBG.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/Verdana12pt.bmp</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/AnimateIcon/PauseIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/AnimateIcon/PlayIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/AnimateIcon/ScrubIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/MoveIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/MoveIcon_Selected.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/OriginIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/OriginIcon_Selected.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/RotateIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/RotateIcon_Selected.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/ScaleIcon.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/ScaleIcon_Selected.jpg</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/Cursors/RotateCursor.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/Cursors/ScaleCursor.png</File>
+    <File>C:/Users/Develpement/Desktop/Eon Engine Development Kit/EEDK.SkeletalAnimator/EEDK.SkeletalAnimator/Content/GUI/TransformIcons/Center.png</File>
+  </SourceFiles>
+</SourceFileCollection>
